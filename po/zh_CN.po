@@ -39,7 +39,7 @@ msgstr ""
 #: embed/ephy-about-handler.c:237 src/ephy-main.c:103 src/ephy-main.c:279
 #: src/ephy-main.c:432 src/window-commands.c:1066
 msgid "Web"
-msgstr "浏览器"
+msgstr "哥布林浏览器"
 
 #: data/org.gnome.Epiphany.appdata.xml.in.in:7
 #: data/org.gnome.Epiphany.desktop.in.in:5

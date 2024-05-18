@@ -1070,21 +1070,21 @@ window_cmd_show_about (GSimpleAction *action,
   }
 
   adw_about_window_set_version (dialog, VERSION);
-  adw_about_window_set_copyright (dialog,
-                                  "Copyright © 2002–2004 Marco Pesenti Gritti\n"
-                                  "Copyright © 2003–2023 The GNOME Web Developers");
-  adw_about_window_set_developer_name (dialog, _("The GNOME Project"));
+  // adw_about_window_set_copyright (dialog,
+  //                                 "Copyright © 2002–2004 Marco Pesenti Gritti\n"
+  //                                 "Copyright © 2003–2023 The GNOME Web Developers");
+  // adw_about_window_set_developer_name (dialog, _("The GNOME Project"));
 
-  adw_about_window_set_debug_info (dialog, debug_info);
-  adw_about_window_set_license_type (dialog, GTK_LICENSE_GPL_3_0);
-  adw_about_window_set_website (dialog, "https://apps.gnome.org/Epiphany");
+  // adw_about_window_set_debug_info (dialog, debug_info);
+  // adw_about_window_set_license_type (dialog, GTK_LICENSE_GPL_3_0);
+  // adw_about_window_set_website (dialog, "https://apps.gnome.org/Epiphany");
   adw_about_window_set_application_icon (dialog, APPLICATION_ID);
 
-  adw_about_window_set_developers (dialog, (const char **)authors);
-  adw_about_window_set_designers (dialog, (const char **)artists);
-  adw_about_window_set_documenters (dialog, (const char **)documenters);
-  adw_about_window_set_translator_credits (dialog, _("translator-credits"));
-  adw_about_window_set_issue_url (dialog, "https://gitlab.gnome.org/GNOME/epiphany/-/issues/new");
+  // adw_about_window_set_developers (dialog, (const char **)authors);
+  // adw_about_window_set_designers (dialog, (const char **)artists);
+  // adw_about_window_set_documenters (dialog, (const char **)documenters);
+  // adw_about_window_set_translator_credits (dialog, _("translator-credits"));
+  // adw_about_window_set_issue_url (dialog, "https://gitlab.gnome.org/GNOME/epiphany/-/issues/new");
 
   gtk_window_present (GTK_WINDOW (dialog));
 

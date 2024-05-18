@@ -322,6 +322,15 @@ ephy_header_bar_constructed (GObject *object)
     gtk_box_set_spacing (GTK_BOX (button_box), 0);
   }
 
+  if(is_desktop_gnome ()) {
+    remove_menu_item (menu, "app.firefox-sync-dialog");
+    remove_menu_item (menu, "import-export");
+    remove_menu_item (menu, "win.save-as-application");
+    remove_menu_item (menu, "win.open-application-manager");
+    remove_menu_item (menu, "win.encoding");
+    remove_menu_item (menu, "app.help");
+  }
+
   gtk_menu_button_set_popover (GTK_MENU_BUTTON (button), header_bar->page_menu_popover);
   g_object_unref (builder);
 
