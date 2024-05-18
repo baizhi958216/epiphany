@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "context-menu-commands.h": "c",
+        "gtk.h": "c",
+        "gtkcss.h": "c",
+        "glib.h": "c",
+        "galloca.h": "c",
+        "gtypes.h": "c",
+        "gmacros.h": "c",
+        "ephy-action-bar-end.h": "c",
+        "gdk.h": "c",
+        "gsk.h": "c",
+        "gskpathpoint.h": "c",
+        "gskpath.h": "c",
+        "gskpathbuilder.h": "c",
+        "gsktypes.h": "c",
+        "graphene.h": "c",
+        "graphene-version.h": "c",
+        "graphene-simd4f.h": "c",
+        "graphene-macros.h": "c",
+        "graphene-version-macros.h": "c",
+        "float.h": "c"
+    }
+}
